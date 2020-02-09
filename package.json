@@ -1,0 +1,19 @@
+{
+  "name": "async-env",
+  "version": "1.0.0",
+  "description": "Executable node.js script to Load async config as environment variables",
+  "main": "cli.js",
+  "author": "EssamTarik",
+  "dependencies": {
+    "cross-spawn": "^7.0.1",
+    "yargs": "^15.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EssamTarik/async-env.git"
+  },
+  "license": "MIT",
+  "bin": {
+    "async-env": "./cli.js"
+  }
+}
