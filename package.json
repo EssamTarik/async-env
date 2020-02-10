@@ -1,6 +1,6 @@
 {
   "name": "async-env",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Executable node.js script to Load async config as environment variables",
   "main": "cli.js",
   "author": "EssamTarik",
