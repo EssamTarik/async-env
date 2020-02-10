@@ -5,6 +5,11 @@ async-env is an executable node.js script to Load async config as environment va
 ## Motivation
 The main motive for this tool is situations when config is centralized by being stored on a server(s) and this config needs to be fetched and used in simple shell scripts or task runners,
 this is when this simple tool comes in handy for keeping your scripts or code decoupled from your config source, as the execution of your command will be delayed until the async process has finished and the config is loaded as environment variables.
+## Install
+NPM
+```bash
+> npm i -g async-env
+```
 ## Usage
 ```bash
 > async-env [flags] command
